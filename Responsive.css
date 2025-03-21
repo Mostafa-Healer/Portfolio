@@ -1,0 +1,213 @@
+@media  (max-width: 600px)  {
+    body{
+        width: 100%;
+    }
+    .Intro{
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .content {
+        padding-left: 30px;
+    }
+    .content img {
+        border-radius:50% ;
+        width: 70px;
+        height: 70px;
+        margin-top: 30px;
+        
+    }
+    .content h1 {
+        font-size: 30px;
+    }
+    .content h1 p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    /*                                            Information */
+    .Information{
+        width: 100%;
+        height: 100vh;
+        background-color: #141414;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .Information .left {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Information .left img {
+        width: 120px;
+        height: 150px;
+        /* border-radius: 50%; */
+        /* margin: auto; */
+    }
+    .Information .right {
+        width: 100%;
+        height: 70%;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .right_content {
+        width: 100%;
+    }
+    .Information .right p {
+        color: white;
+        font-size: 15px;
+    }
+    /*                                         services */
+    .services {
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .services .services_left {
+        width: 100%;
+        height: 30%;
+        display: flex;
+    
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin-left: 0px;
+    }
+    .services .services_left h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .services .services_left img {
+        width: 200px;
+        height: 150px;
+    }
+    
+    .services .services_right {
+        width: 100%;
+        height: 70%;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .services_right_content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    
+    ul  {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: .5s;
+    }
+    ul:hover {
+        color: aquamarine;
+    }
+    li {
+        font-size: 13px;
+        color: white;
+        list-style:disc;
+    }
+    
+    .UIDevelopment::before,
+    .PerformanceOptimization::before,
+    .ResponsiveWebDevelopment::before,
+    .BuildingInteractiveWebApps::before,
+    .SEO::before,
+    .API::before,
+    .FreelanceConsulting::before
+    {
+        margin-left: -30px; 
+        font-size: 30px;
+    }
+
+    /*                                         contacts */
+    .contacts {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #141414;
+    }
+    .contact_left {
+        width: 100%;
+        height: 50%;
+    }
+    .contact_left h1 {
+        font-size: 20px;
+    }
+    .contact_left img {
+        width: 300px;
+        height: 200px;
+    
+    }
+    
+    .contact_right {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+/*                                                                  Thank */
+.Thank {
+    width: 100%;
+    height: 100vh;
+    /* background: #141414; */
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Thank h1 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+.Thank p {
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.line_top {
+    width: 35%;
+    height: 3px;
+    background-color: #ffffff;
+    border: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.line_bottom {
+    width: 35%;
+    height: 3px;
+    background-color: #ffffff; 
+    border: none;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+}
+ 
+}
