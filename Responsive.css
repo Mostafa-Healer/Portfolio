@@ -147,7 +147,7 @@
         background-color: #141414;
     }
     .contact_left {
-        width: 90%; /* 100% => Error */
+        width: 99%; /* 100% => Error */
         height: 50%;
     }
     .contact_left h1 {
