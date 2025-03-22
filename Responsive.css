@@ -3,9 +3,10 @@
         margin: 0;
         padding: 0;
     }
-    /* body{
+    body{
         width: 100%;
-    } */
+        overflow: hidden;
+    }
     .Intro{
         width: 100%;
         height: 100vh;
